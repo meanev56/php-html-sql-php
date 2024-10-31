@@ -377,6 +377,26 @@ footer ul a:hover{
     color: var(--color-white);
 }
 
+/* single post */
+.singlepost {
+    margin: 6rem 0 2rem;
+}
+
+.singlepost_container {
+    width: var(--form-width);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 2rem;
+}
+
+.singlepost .post_thumbnail {
+    margin-top: 1.5rem;
+}
+
+.singlepost_container p {
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
 /* media queris medium devices */
 
 @media screen and (max-width: 1024px) {
@@ -507,6 +527,11 @@ footer ul a:hover{
     .search_bar-container {
         width: 60%;
     }
+
+    /* single post */
+    .singlepost{
+        margin-top: 6rem;
+    }
 }
 
 
@@ -548,5 +573,12 @@ footer ul a:hover{
 
    .search_bar-container {
     width: var(--container-width-md);
+   }
+
+   /* single post */
+
+   .singlepost_container {
+    border-color: transparent;
+    padding: 0;
    }
 }
